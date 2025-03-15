@@ -1,0 +1,9 @@
+version: '3'
+services:
+  jenkins-app:
+    build: .
+    ports:
+      - "80:3000"
+    environment:
+      - PORT=3000
+
